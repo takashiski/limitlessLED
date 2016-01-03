@@ -10,7 +10,7 @@ led.white(1)
 led.set_brightness(100,1)
 
 for i in range(1,26):
-    sleep(60)
+    time.sleep(60)
     led.set_brightness((26-i)*4,1)
 
 led.off(1)
